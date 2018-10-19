@@ -1,0 +1,249 @@
+1	Algeria	Africa	Northern Africa		DZA	12	39666519
+2	Egypt	Africa	Northern Africa		EGY	818	91508084
+3	Libya	Africa	Northern Africa		LBY	434	6278438
+4	Morocco	Africa	Northern Africa		MAR	504	34377511
+5	Sudan	Africa	Northern Africa		SDN	729	40234882
+6	Tunisia	Africa	Northern Africa		TUN	788	11253554
+7	Western Sahara	Africa	Northern Africa		ESH	732	572540
+8	British Indian Ocean Territory	Africa	Sub-Saharan Africa	Eastern Africa	IOT	86	0
+9	Burundi	Africa	Sub-Saharan Africa	Eastern Africa	BDI	108	11178921
+10	Comoros	Africa	Sub-Saharan Africa	Eastern Africa	COM	174	788474
+11	Djibouti	Africa	Sub-Saharan Africa	Eastern Africa	DJI	262	887861
+12	Eritrea	Africa	Sub-Saharan Africa	Eastern Africa	ERI	232	5227791
+13	Ethiopia	Africa	Sub-Saharan Africa	Eastern Africa	ETH	231	99390750
+14	French Southern Territories	Africa	Sub-Saharan Africa	Eastern Africa	ATF	260	0
+15	Kenya	Africa	Sub-Saharan Africa	Eastern Africa	KEN	404	46050302
+16	Madagascar	Africa	Sub-Saharan Africa	Eastern Africa	MDG	450	24235390
+17	Malawi	Africa	Sub-Saharan Africa	Eastern Africa	MWI	454	17215232
+18	Mauritius	Africa	Sub-Saharan Africa	Eastern Africa	MUS	480	1273212
+19	Mayotte	Africa	Sub-Saharan Africa	Eastern Africa	MYT	175	240015
+20	Mozambique	Africa	Sub-Saharan Africa	Eastern Africa	MOZ	508	27977863
+21	Réunion	Africa	Sub-Saharan Africa	Eastern Africa	REU	638	861154
+22	Rwanda	Africa	Sub-Saharan Africa	Eastern Africa	RWA	646	11609666
+23	Seychelles	Africa	Sub-Saharan Africa	Eastern Africa	SYC	690	96471
+24	Somalia	Africa	Sub-Saharan Africa	Eastern Africa	SOM	706	10787104
+25	South Sudan	Africa	Sub-Saharan Africa	Eastern Africa	SSD	728	12339812
+26	Uganda	Africa	Sub-Saharan Africa	Eastern Africa	UGA	800	39032383
+27	United Republic of Tanzania	Africa	Sub-Saharan Africa	Eastern Africa	TZA	834	53470420
+28	Zambia	Africa	Sub-Saharan Africa	Eastern Africa	ZMB	894	16211767
+29	Zimbabwe	Africa	Sub-Saharan Africa	Eastern Africa	ZWE	716	15602751
+30	Angola	Africa	Sub-Saharan Africa	Middle Africa	AGO	24	25021974
+31	Cameroon	Africa	Sub-Saharan Africa	Middle Africa	CMR	120	23344179
+32	Central African Republic	Africa	Sub-Saharan Africa	Middle Africa	CAF	140	4900274
+33	Chad	Africa	Sub-Saharan Africa	Middle Africa	TCD	148	14037472
+34	Congo	Africa	Sub-Saharan Africa	Middle Africa	COG	178	4620330
+35	Democratic Republic of the Congo	Africa	Sub-Saharan Africa	Middle Africa	COD	180	77266814
+36	Equatorial Guinea	Africa	Sub-Saharan Africa	Middle Africa	GNQ	226	845060
+37	Gabon	Africa	Sub-Saharan Africa	Middle Africa	GAB	266	1725292
+38	Sao Tome and Principe	Africa	Sub-Saharan Africa	Middle Africa	STP	678	190344
+39	Botswana	Africa	Sub-Saharan Africa	Southern Africa	BWA	72	2262485
+40	Lesotho	Africa	Sub-Saharan Africa	Southern Africa	LSO	426	2135022
+41	Namibia	Africa	Sub-Saharan Africa	Southern Africa	NAM	516	2458830
+42	South Africa	Africa	Sub-Saharan Africa	Southern Africa	ZAF	710	54490406
+43	Swaziland	Africa	Sub-Saharan Africa	Southern Africa	SWZ	748	1286970
+44	Benin	Africa	Sub-Saharan Africa	Western Africa	BEN	204	10879829
+45	Burkina Faso	Africa	Sub-Saharan Africa	Western Africa	BFA	854	18105570
+46	Cabo Verde	Africa	Sub-Saharan Africa	Western Africa	CPV	132	520502
+47	Côte d\'Ivoire	Africa	Sub-Saharan Africa	Western Africa	CIV	384	22701556
+48	Gambia	Africa	Sub-Saharan Africa	Western Africa	GMB	270	1990924
+49	Ghana	Africa	Sub-Saharan Africa	Western Africa	GHA	288	27409893
+50	Guinea	Africa	Sub-Saharan Africa	Western Africa	GIN	324	12608590
+51	Guinea-Bissau	Africa	Sub-Saharan Africa	Western Africa	GNB	624	1844325
+52	Liberia	Africa	Sub-Saharan Africa	Western Africa	LBR	430	4503438
+53	Mali	Africa	Sub-Saharan Africa	Western Africa	MLI	466	17599694
+54	Mauritania	Africa	Sub-Saharan Africa	Western Africa	MRT	478	4067564
+55	Niger	Africa	Sub-Saharan Africa	Western Africa	NER	562	19899120
+56	Nigeria	Africa	Sub-Saharan Africa	Western Africa	NGA	566	182201962
+57	Saint Helena	Africa	Sub-Saharan Africa	Western Africa	SHN	654	3961
+58	Senegal	Africa	Sub-Saharan Africa	Western Africa	SEN	686	15129273
+59	Sierra Leone	Africa	Sub-Saharan Africa	Western Africa	SLE	694	6453184
+60	Togo	Africa	Sub-Saharan Africa	Western Africa	TGO	768	7304578
+61	Anguilla	Americas	Latin America and the Caribbean	Caribbean	AIA	660	14614
+62	Antigua and Barbuda	Americas	Latin America and the Caribbean	Caribbean	ATG	28	91818
+63	Aruba	Americas	Latin America and the Caribbean	Caribbean	ABW	533	103889
+64	Bahamas	Americas	Latin America and the Caribbean	Caribbean	BHS	44	388019
+65	Barbados	Americas	Latin America and the Caribbean	Caribbean	BRB	52	284215
+66	Bonaire	Sint Eustatius and Saba	Americas	Latin America and the Caribbean	Caribbean	BES	535	24861
+67	British Virgin Islands	Americas	Latin America and the Caribbean	Caribbean	VGB	92	30117
+68	Cayman Islands	Americas	Latin America and the Caribbean	Caribbean	CYM	136	59967
+69	Cuba	Americas	Latin America and the Caribbean	Caribbean	CUB	192	11389562
+70	Curaçao	Americas	Latin America and the Caribbean	Caribbean	CUW	531	157203
+71	Dominica	Americas	Latin America and the Caribbean	Caribbean	DMA	212	72680
+72	Dominican Republic	Americas	Latin America and the Caribbean	Caribbean	DOM	214	10528391
+73	Grenada	Americas	Latin America and the Caribbean	Caribbean	GRD	308	106825
+74	Guadeloupe	Americas	Latin America and the Caribbean	Caribbean	GLP	312	468450
+75	Haiti	Americas	Latin America and the Caribbean	Caribbean	HTI	332	10711067
+76	Jamaica	Americas	Latin America and the Caribbean	Caribbean	JAM	388	2793335
+77	Martinique	Americas	Latin America and the Caribbean	Caribbean	MTQ	474	396425
+78	Montserrat	Americas	Latin America and the Caribbean	Caribbean	MSR	500	5125
+79	Puerto Rico	Americas	Latin America and the Caribbean	Caribbean	PRI	630	3683238
+80	Saint Barthélemy	Americas	Latin America and the Caribbean	Caribbean	BLM	652	0
+81	Saint Kitts and Nevis	Americas	Latin America and the Caribbean	Caribbean	KNA	659	55572
+82	Saint Lucia	Americas	Latin America and the Caribbean	Caribbean	LCA	662	184999
+83	Saint Martin (French Part)	Americas	Latin America and the Caribbean	Caribbean	MAF	663	0
+84	Saint Vincent and the Grenadines	Americas	Latin America and the Caribbean	Caribbean	VCT	670	109462
+85	Sint Maarten (Dutch part)	Americas	Latin America and the Caribbean	Caribbean	SXM	534	38745
+86	Trinidad and Tobago	Americas	Latin America and the Caribbean	Caribbean	TTO	780	1360088
+87	Turks and Caicos Islands	Americas	Latin America and the Caribbean	Caribbean	TCA	796	34339
+88	United States Virgin Islands	Americas	Latin America and the Caribbean	Caribbean	VIR	850	106291
+89	Belize	Americas	Latin America and the Caribbean	Central America	BLZ	84	359287
+90	Costa Rica	Americas	Latin America and the Caribbean	Central America	CRI	188	4807850
+91	El Salvador	Americas	Latin America and the Caribbean	Central America	SLV	222	6126583
+92	Guatemala	Americas	Latin America and the Caribbean	Central America	GTM	320	16342897
+93	Honduras	Americas	Latin America and the Caribbean	Central America	HND	340	8075060
+94	Mexico	Americas	Latin America and the Caribbean	Central America	MEX	484	127017224
+95	Nicaragua	Americas	Latin America and the Caribbean	Central America	NIC	558	6082032
+96	Panama	Americas	Latin America and the Caribbean	Central America	PAN	591	3929141
+97	Argentina	Americas	Latin America and the Caribbean	South America	ARG	32	43416755
+98	Bolivia (Plurinational State of)	Americas	Latin America and the Caribbean	South America	BOL	68	10724705
+99	Bouvet Island	Americas	Latin America and the Caribbean	South America	BVT	74	0
+100	Brazil	Americas	Latin America and the Caribbean	South America	BRA	76	207847528
+101	Chile	Americas	Latin America and the Caribbean	South America	CHL	152	17948141
+102	Colombia	Americas	Latin America and the Caribbean	South America	COL	170	48228704
+103	Ecuador	Americas	Latin America and the Caribbean	South America	ECU	218	16144363
+104	Falkland Islands (Malvinas)	Americas	Latin America and the Caribbean	South America	FLK	238	2903
+105	French Guiana	Americas	Latin America and the Caribbean	South America	GUF	254	268606
+106	Guyana	Americas	Latin America and the Caribbean	South America	GUY	328	767085
+107	Paraguay	Americas	Latin America and the Caribbean	South America	PRY	600	6639123
+108	Peru	Americas	Latin America and the Caribbean	South America	PER	604	31376670
+109	South Georgia and the South Sandwich Islands	Americas	Latin America and the Caribbean	South America	SGS	239	0
+110	Suriname	Americas	Latin America and the Caribbean	South America	SUR	740	542975
+111	Uruguay	Americas	Latin America and the Caribbean	South America	URY	858	3431555
+112	Venezuela (Bolivarian Republic of)	Americas	Latin America and the Caribbean	South America	VEN	862	31108083
+113	Bermuda	Americas	Northern America		BMU	60	62004
+114	Canada	Americas	Northern America		CAN	124	35939927
+115	Greenland	Americas	Northern America		GRL	304	56186
+116	Saint Pierre and Miquelon	Americas	Northern America		SPM	666	6288
+117	United States of America	Americas	Northern America		USA	840	321773631
+118	Antarctica				ATA	10	0
+119	Kazakhstan	Asia	Central Asia		KAZ	398	17625226
+120	Kyrgyzstan	Asia	Central Asia		KGZ	417	5939962
+121	Tajikistan	Asia	Central Asia		TJK	762	8481855
+122	Turkmenistan	Asia	Central Asia		TKM	795	5373502
+123	Uzbekistan	Asia	Central Asia		UZB	860	29893488
+124	China	Asia	Eastern Asia		CHN	156	1376048943
+125	China, Hong Kong Special Administrative Region	Asia	Eastern Asia		HKG	344	7287983
+126	China, Macao Special Administrative Region	Asia	Eastern Asia		MAC	446	587606
+127	Democratic People\'s Republic of Korea	Asia	Eastern Asia		PRK	408	25155317
+128	Japan	Asia	Eastern Asia		JPN	392	126573481
+129	Mongolia	Asia	Eastern Asia		MNG	496	2959134
+130	Republic of Korea	Asia	Eastern Asia		KOR	410	50293439
+131	Brunei Darussalam	Asia	South-eastern Asia		BRN	96	423188
+132	Cambodia	Asia	South-eastern Asia		KHM	116	15577899
+133	Indonesia	Asia	South-eastern Asia		IDN	360	257563815
+134	Lao People\'s Democratic Republic	Asia	South-eastern Asia		LAO	418	6802023
+135	Malaysia	Asia	South-eastern Asia		MYS	458	30331007
+136	Myanmar	Asia	South-eastern Asia		MMR	104	53897154
+137	Philippines	Asia	South-eastern Asia		PHL	608	100699395
+138	Singapore	Asia	South-eastern Asia		SGP	702	5603740
+139	Thailand	Asia	South-eastern Asia		THA	764	67959359
+140	Timor-Leste	Asia	South-eastern Asia		TLS	626	1184765
+141	Viet Nam	Asia	South-eastern Asia		VNM	704	93447601
+142	Afghanistan	Asia	Southern Asia		AFG	4	32526562
+143	Bangladesh	Asia	Southern Asia		BGD	50	160995642
+144	Bhutan	Asia	Southern Asia		BTN	64	774830
+145	India	Asia	Southern Asia		IND	356	1311050527
+146	Iran (Islamic Republic of)	Asia	Southern Asia		IRN	364	79109272
+147	Maldives	Asia	Southern Asia		MDV	462	363657
+148	Nepal	Asia	Southern Asia		NPL	524	28513700
+149	Pakistan	Asia	Southern Asia		PAK	586	188924874
+150	Sri Lanka	Asia	Southern Asia		LKA	144	20715010
+151	Armenia	Asia	Western Asia		ARM	51	3017712
+152	Azerbaijan	Asia	Western Asia		AZE	31	9753968
+153	Bahrain	Asia	Western Asia		BHR	48	1377237
+154	Cyprus	Asia	Western Asia		CYP	196	1165300
+155	Georgia	Asia	Western Asia		GEO	268	3999812
+156	Iraq	Asia	Western Asia		IRQ	368	36423395
+157	Israel	Asia	Western Asia		ISR	376	8064036
+158	Jordan	Asia	Western Asia		JOR	400	7594547
+159	Kuwait	Asia	Western Asia		KWT	414	3892115
+160	Lebanon	Asia	Western Asia		LBN	422	5850743
+161	Oman	Asia	Western Asia		OMN	512	4490541
+162	Qatar	Asia	Western Asia		QAT	634	2235355
+163	Saudi Arabia	Asia	Western Asia		SAU	682	31540372
+164	State of Palestine	Asia	Western Asia		PSE	275	4668466
+165	Syrian Arab Republic	Asia	Western Asia		SYR	760	18502413
+166	Turkey	Asia	Western Asia		TUR	792	78665830
+167	United Arab Emirates	Asia	Western Asia		ARE	784	9156963
+168	Yemen	Asia	Western Asia		YEM	887	26832215
+169	Belarus	Europe	Eastern Europe		BLR	112	9495826
+170	Bulgaria	Europe	Eastern Europe		BGR	100	7149787
+171	Czechia	Europe	Eastern Europe		CZE	203	10543186
+172	Hungary	Europe	Eastern Europe		HUN	348	9855023
+173	Poland	Europe	Eastern Europe		POL	616	38611794
+174	Republic of Moldova	Europe	Eastern Europe		MDA	498	4068897
+175	Romania	Europe	Eastern Europe		ROU	642	19511324
+176	Russian Federation	Europe	Eastern Europe		RUS	643	143456918
+177	Slovakia	Europe	Eastern Europe		SVK	703	5426258
+178	Ukraine	Europe	Eastern Europe		UKR	804	44823765
+179	Åland Islands	Europe	Northern Europe		ALA	248	0
+180	Guernsey	Europe	Northern Europe	Channel Islands	GGY	831	0
+181	Jersey	Europe	Northern Europe	Channel Islands	JEY	832	0
+182	Sark	Europe	Northern Europe	Channel Islands		680	0
+183	Denmark	Europe	Northern Europe		DNK	208	5669081
+184	Estonia	Europe	Northern Europe		EST	233	1312558
+185	Faroe Islands	Europe	Northern Europe		FRO	234	48199
+186	Finland	Europe	Northern Europe		FIN	246	5503457
+187	Iceland	Europe	Northern Europe		ISL	352	329425
+188	Ireland	Europe	Northern Europe		IRL	372	4688465
+189	Isle of Man	Europe	Northern Europe		IMN	833	87780
+190	Latvia	Europe	Northern Europe		LVA	428	1970503
+191	Lithuania	Europe	Northern Europe		LTU	440	2878405
+192	Norway	Europe	Northern Europe		NOR	578	5210967
+193	Svalbard and Jan Mayen Islands	Europe	Northern Europe		SJM	744	0
+194	Sweden	Europe	Northern Europe		SWE	752	9779426
+195	United Kingdom of Great Britain and Northern Ireland	Europe	Northern Europe		GBR	826	64715810
+196	Albania	Europe	Southern Europe		ALB	8	2896679
+197	Andorra	Europe	Southern Europe		AND	20	70473
+198	Bosnia and Herzegovina	Europe	Southern Europe		BIH	70	3810416
+199	Croatia	Europe	Southern Europe		HRV	191	4240317
+200	Gibraltar	Europe	Southern Europe		GIB	292	32217
+201	Greece	Europe	Southern Europe		GRC	300	10954617
+202	Holy See	Europe	Southern Europe		VAT	336	800
+203	Italy	Europe	Southern Europe		ITA	380	59797685
+204	Malta	Europe	Southern Europe		MLT	470	418670
+205	Montenegro	Europe	Southern Europe		MNE	499	625781
+206	Portugal	Europe	Southern Europe		PRT	620	10349803
+207	San Marino	Europe	Southern Europe		SMR	674	31781
+208	Serbia	Europe	Southern Europe		SRB	688	8850975
+209	Slovenia	Europe	Southern Europe		SVN	705	2067526
+210	Spain	Europe	Southern Europe		ESP	724	46121699
+211	The former Yugoslav Republic of Macedonia	Europe	Southern Europe		MKD	807	2078453
+212	Austria	Europe	Western Europe		AUT	40	8544586
+213	Belgium	Europe	Western Europe		BEL	56	11299192
+214	France	Europe	Western Europe		FRA	250	64395345
+215	Germany	Europe	Western Europe		DEU	276	80688545
+216	Liechtenstein	Europe	Western Europe		LIE	438	37531
+217	Luxembourg	Europe	Western Europe		LUX	442	567110
+218	Monaco	Europe	Western Europe		MCO	492	37731
+219	Netherlands	Europe	Western Europe		NLD	528	16924929
+220	Switzerland	Europe	Western Europe		CHE	756	8298663
+221	Australia	Oceania	Australia and New Zealand		AUS	36	23968973
+222	Christmas Island	Oceania	Australia and New Zealand		CXR	162	0
+223	Cocos (Keeling) Islands	Oceania	Australia and New Zealand		CCK	166	0
+224	Heard Island and McDonald Islands	Oceania	Australia and New Zealand		HMD	334	0
+225	New Zealand	Oceania	Australia and New Zealand		NZL	554	4528526
+226	Norfolk Island	Oceania	Australia and New Zealand		NFK	574	0
+227	Fiji	Oceania	Melanesia		FJI	242	892145
+228	New Caledonia	Oceania	Melanesia		NCL	540	263118
+229	Papua New Guinea	Oceania	Melanesia		PNG	598	7619321
+230	Solomon Islands	Oceania	Melanesia		SLB	90	583591
+231	Vanuatu	Oceania	Melanesia		VUT	548	264652
+232	Guam	Oceania	Micronesia		GUM	316	169885
+233	Kiribati	Oceania	Micronesia		KIR	296	112423
+234	Marshall Islands	Oceania	Micronesia		MHL	584	52993
+235	Micronesia (Federated States of)	Oceania	Micronesia		FSM	583	104460
+236	Nauru	Oceania	Micronesia		NRU	520	10222
+237	Northern Mariana Islands	Oceania	Micronesia		MNP	580	55070
+238	Palau	Oceania	Micronesia		PLW	585	21291
+239	United States Minor Outlying Islands	Oceania	Micronesia		UMI	581	0
+240	American Samoa	Oceania	Polynesia		ASM	16	55538
+241	Cook Islands	Oceania	Polynesia		COK	184	20833
+242	French Polynesia	Oceania	Polynesia		PYF	258	282764
+243	Niue	Oceania	Polynesia		NIU	570	1610
+244	Pitcairn	Oceania	Polynesia		PCN	612	0
+245	Samoa	Oceania	Polynesia		WSM	882	193228
+246	Tokelau	Oceania	Polynesia		TKL	772	1250
+247	Tonga	Oceania	Polynesia		TON	776	106170
+248	Tuvalu	Oceania	Polynesia		TUV	798	9916
+249	Wallis and Futuna Islands	Oceania	Polynesia		WLF	876	13151
