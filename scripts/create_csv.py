@@ -4,10 +4,10 @@ import json
 
 # In future directly use https://librarymap.ifla.org/api/map
 
-COUNTRY_DATA = 'countries_pop.txt'
-LOOKUP_DATA = 'map.json'
-OUTPUT_DATA = 'ifla_data.csv'
-OUTPUT_TEXT = 'ifla_text.json'
+COUNTRY_DATA = '..//data//countries_pop.txt'
+LOOKUP_DATA = '..//data//map.json'
+OUTPUT_DATA = '..//data//ifla_data.csv'
+OUTPUT_TEXT = '..//data//ifla_text.json'
 
 def read_lookup_data():
     """Return 4 data sets for countries, metrics, languages, and contributors"""
@@ -28,15 +28,14 @@ def run():
 
     ## Our single CSV will essentially be every country, with each column being associated data taken from other lookups
     countries_data = []
-    set_headers = ['name', 'continent', 'sub_region', 'intermediate_region', 'updated_at']
+    set_headers = ['Name']
     dynamic_headers = []
 
     for country in lookups['countries']:
 
         # Standard values
         country_data = {}
-        for header in set_headers:
-            country_data[header] = country[header]
+        country_data['Name'] = country['name']
 
         # Get all the metric values for the country
         country_value_data = {}
@@ -50,25 +49,26 @@ def run():
         for metric in lookups['metrics']:
 
             for type in lookups['libraryTypes']:
-                if (type['name'] + '_' + metric['shortname']) not in dynamic_headers:
-                    dynamic_headers.append(type['name'] + '_' + metric['shortname'])
-                if type['id'] in country_value_data and metric['id'] in country_value_data[type['id']]:
-                    country_data[type['name'] + '_' + metric['shortname']] = country_value_data[type['id']][metric['id']]
+                if metric['name'] and metric['name'] != '' and type['id'] in country_value_data and metric['id'] in country_value_data[type['id']]:
+                    if (type['name'] + ' ' + metric['name']) not in dynamic_headers:
+                        dynamic_headers.append(type['name'] + ' ' + metric['name'])
+                    country_data[type['name'] + ' ' + metric['name']] = country_value_data[type['id']][metric['id']]
 
         countries_data.append(country_data)
 
     headers = set_headers + dynamic_headers
 
-    with open(OUTPUT_DATA, 'w', newline='') as outputfile:
+    with open(OUTPUT_DATA, 'w', newline='', encoding='utf8') as outputfile:
         csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csvwriter.writerow(headers)
         for country in countries_data:
             country_row = []
-            for header in headers:
-                if header in country:
-                    country_row.append(country[header])
-                else:
-                    country_row.append('')
-            csvwriter.writerow(country_row)
+            if len(country.items()) > 1:
+                for header in headers:
+                    if header in country:
+                        country_row.append(country[header])
+                    else:
+                        country_row.append('')
+                csvwriter.writerow(country_row)
 
 run()
