@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/LibrariesHacked/ifla-librarydata#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.6.0",
+    "@fortawesome/fontawesome-free": "^5.6.1",
     "bulma": "^0.7.2",
+    "bulma-extensions": "^4.0.0",
     "datatables-bulma": "^1.0.1",
     "datatables.net-dt": "^1.10.19",
     "jquery": "^3.3.1",
