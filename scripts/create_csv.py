@@ -40,7 +40,7 @@ def run():
         # Get all the metric values for the country
         country_value_data = {}
         for value in lookups['values']:
-            if value['country_id'] == country['id']:
+            if value['country_id'] == country['id'] and value['val'] != '-1':
                 if value['library_type_id'] not in country_value_data:
                     country_value_data[value['library_type_id']] = {}
                 country_value_data[value['library_type_id']][value['metric_id']] = value['val']
@@ -60,6 +60,10 @@ def run():
 
     with open(OUTPUT_DATA, 'w', newline='', encoding='utf8') as outputfile:
         csvwriter = csv.writer(outputfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        
+        final_headers = []
+        for header in headers:
+            final_headers.append(header.replace('Number of ', ''))
         csvwriter.writerow(headers)
         for country in countries_data:
             country_row = []

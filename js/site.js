@@ -3,15 +3,25 @@ $(function () {
         header: true,
         download: true,
         complete: function (results) {
-            var display_fields = ['Name'];
+            var display_fields = ['Name', 'Academic Number of Libraries'];
             var columns = [];
             $.each(results.meta.fields, function (i, header) {
-                columns.push({ title: header });
+                columnDef = { title: header, visible: false, name: header };
+                if (display_fields.indexOf(header) !== -1) columnDef.visible = true;
+
+                if (header === 'Name') {
+                    columnDef.render = function (data, type, row, meta) {
+                        return data + '&nbsp;<span class="icon"><i class="fas fa-info-circle"></i></span>';
+                    }
+                }
+
+                columns.push(columnDef);
                 var types = ['School', 'Public', 'Community', 'Other', 'National', 'Academic'];
                 if (header.split(' ').length > 0 && types.indexOf(header.split(' ')[0]) !== -1) {
                     type = types[types.indexOf(header.split(' ')[0])];
-                    $('#dd' + type.toLowerCase() + 'fields').append(
-                        '<div class="field"><input class="is-checkradio is-block is-success" id="exampleCheckboxBlockSuccess" type="checkbox" name="exampleCheckboxBlockSuccess" checked="checked"><label for="exampleCheckboxBlockSuccess">' + header.replace(type + ' ', '') + '</label></div>'
+                    var checked = display_fields.indexOf(header) !== -1 ? 'checked' : '';
+                    $('#switchers' + type.toLowerCase()).append(
+                        '<input id="chb' + header.replace(/ /g, '') + '" class="switcher is-checkradio is-block is-success is-small" type="checkbox" ' + checked + '" data-column="' + header + '"><label for="chb' + header.replace(/ /g, '') + '">' + header.replace(type + ' ', '') + '</label>'
                     );
                 }
             });
@@ -31,14 +41,21 @@ $(function () {
                 columns: columns
             });
 
-            $('a.toggle-vis').on('click', function (e) {
+            $('input.switcher').change(function (e) {
                 e.preventDefault();
-
-                // Get the column API object
-                var column = library_table.column($(this).attr('data-column'));
-
-                // Toggle the visibility
+                var name = $(this).attr('data-column') + ':name';
+                var column = library_table.column(name);
                 column.visible(!column.visible());
+            });
+
+            $('#tabs li').on('click', function () {
+                var tab = $(this).data('tab');
+
+                $('#tabs li').removeClass('is-active');
+                $(this).addClass('is-active');
+
+                $('#tab-content p').removeClass('is-active');
+                $('p[data-content="' + tab + '"]').addClass('is-active');
             });
         }
     });

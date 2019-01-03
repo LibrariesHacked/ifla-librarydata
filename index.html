@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="css/site.css">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="node_modules/datatables-bulma/css/dataTables.bulma.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-extensions/dist/css/bulma-extensions.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
 </head>
 
 <body>
+    <div class="pageloader"><span class="title">Loading data</span></div>
     <section class="section">
         <div class="container">
             <h1 class="title">IFLA World Library Data</h1>
-            <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and licensed by IFLA</a>.</p>
+            <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and licensed</a> by IFLA.</p>
             <a class="button is-large is-success">
                 <span class="icon is-medium">
                     <i class="fas fa-file-csv"></i>
@@ -25,24 +27,29 @@
             </a>
         </div>
         <div class="container">
-            <br />
             <div class="tabs is-small">
                 <ul>
-                    <li><a>National</a></li>
-                    <li><a>Public</a></li>
-                    <li><a>Academic</a></li>
-                    <li><a>School</a></li>
-                    <li><a>Volunteer</a></li>
-                    <li><a>Other</a></li>
+                    <li><a href="#">National</a></li>
+                    <li><a href="#">Public</a></li>
+                    <li><a href="#">Academic</a></li>
+                    <li><a href="#">School</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                    <li><a href="#">Other</a></li>
                 </ul>
             </div>
-            <br />
-            <table cellpadding="0" cellspacing="0" border="0" id="tbllibrarydata" class="librarytable table is-bordered is-striped is-narrow is-fullwidth"></table>
+            <div id="tab-content">
+                <div id="switchersnational" class="is-active" data-content="1"></div>
+                <div id="switcherspublic" class="is-active" data-content="1"></div>
+                <div id="switchersacademic" class="is-active" data-content="1"></div>
+                <div id="switchersschool" class="is-active" data-content="1"></div>
+                <div id="switchersvolunteer" class="is-active" data-content="1"></div>
+                <div id="switchersother" class="is-active" data-content="1"></div>
+            </div>
+            <table id="tbllibrarydata" class="table is-bordered is-striped"></table>
         </div>
     </section>
     <footer>
         <div class="container">
-            <hr />
             <p>A Libraries Hacked #librarydata project. All code available on GitHub.</p>
             <br />
         </div>
@@ -51,6 +58,7 @@
     <script src="node_modules/papaparse/papaparse.min.js"></script>
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="node_modules/datatables-bulma/js/dataTables.bulma.min.js"></script>
+    <script src="node_modules/bulma-extensions/dist/js/bulma-extensions.min.js"></script>
     <script src="js/site.js"></script>
 </body>
 
