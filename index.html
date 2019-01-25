@@ -14,28 +14,21 @@
 </head>
 
 <body>
-    <div class="pageloader"><span class="title">Loading data</span></div>
     <section class="section">
         <div class="container">
-            <h1 class="title">IFLA World Library Data</h1>
+            <h1 class="title">World Library Data</h1>
             <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and licensed</a> by IFLA.</p>
-            <a class="button is-large is-success">
+            <a class="button is-large is-success" href="data/ifla_data.csv">
                 <span class="icon is-medium">
                     <i class="fas fa-file-csv"></i>
                 </span>
                 <span><strong>Download</strong> data</span>
             </a>
+            <hr />
         </div>
         <div class="container">
             <div class="tabs is-small">
-                <ul>
-                    <li><a href="#">National</a></li>
-                    <li><a href="#">Public</a></li>
-                    <li><a href="#">Academic</a></li>
-                    <li><a href="#">School</a></li>
-                    <li><a href="#">Volunteer</a></li>
-                    <li><a href="#">Other</a></li>
-                </ul>
+                <ul id="tabs-libtypes"></ul>
             </div>
             <div id="tab-content">
                 <div id="switchersnational" class="is-active" data-content="1"></div>
@@ -48,12 +41,6 @@
             <table id="tbllibrarydata" class="table is-bordered is-striped"></table>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <p>A Libraries Hacked #librarydata project. All code available on GitHub.</p>
-            <br />
-        </div>
-    </footer>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/papaparse/papaparse.min.js"></script>
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>

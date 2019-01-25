@@ -64,7 +64,7 @@ def run():
         final_headers = []
         for header in headers:
             final_headers.append(header.replace('Number of ', ''))
-        csvwriter.writerow(headers)
+        csvwriter.writerow(final_headers)
         for country in countries_data:
             country_row = []
             if len(country.items()) > 1:

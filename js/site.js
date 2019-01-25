@@ -3,7 +3,7 @@ $(function () {
         header: true,
         download: true,
         complete: function (results) {
-            var display_fields = ['Name', 'Academic Number of Libraries'];
+            var display_fields = ['Name', 'Academic Libraries', 'Public Libraries'];
             var columns = [];
             $.each(results.meta.fields, function (i, header) {
                 columnDef = { title: header, visible: false, name: header };
