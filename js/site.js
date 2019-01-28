@@ -3,28 +3,47 @@ $(function () {
         header: true,
         download: true,
         complete: function (results) {
-            var display_fields = ['Name', 'Academic Libraries', 'Public Libraries'];
+            var display_fields = ['Name', 'Public Libraries', 'School Libraries', 'Academic Libraries', 'National Libraries', 'Other Libraries', 'Community Libraries'];
             var columns = [];
-            $.each(results.meta.fields, function (i, header) {
+
+            var types = ['Public', 'School', 'Academic', 'National', 'Other', 'Community'];
+
+            $.each(types, function (x, type) {
+                // Add the tab
+                $('#ul-libtypes').append('<li class="' + (x === 0 ? 'is-active' : '') + '" data-tab="' + x + '"><a>' + type + '</a></li>');
+                // Add the content div
+                $('#div-tabcontents').append('<div class="tab-content ' + (x === 0 ? 'is-active' : '') + '" data-content="' + x + '"></div>');
+            });
+
+            $('#ul-libtypes li').on('click', function () {
+                var tab = $(this).data('tab');
+
+                $('#ul-libtypes li').removeClass('is-active');
+                $(this).addClass('is-active');
+
+                $('#div-tabcontents div').removeClass('is-active');
+                $('div[data-content="' + tab + '"]').addClass('is-active');
+            });
+
+            $.each(results.meta.fields, function (i, header) { // For each field
+
                 columnDef = { title: header, visible: false, name: header };
                 if (display_fields.indexOf(header) !== -1) columnDef.visible = true;
 
-                if (header === 'Name') {
-                    columnDef.render = function (data, type, row, meta) {
-                        return data + '&nbsp;<span class="icon"><i class="fas fa-info-circle"></i></span>';
-                    }
-                }
-
                 columns.push(columnDef);
-                var types = ['School', 'Public', 'Community', 'Other', 'National', 'Academic'];
-                if (header.split(' ').length > 0 && types.indexOf(header.split(' ')[0]) !== -1) {
-                    type = types[types.indexOf(header.split(' ')[0])];
+
+                var lib_type = '';
+                if (header.split(' ').length > 0 && types.indexOf(header.split(' ')[0]) !== -1) lib_type = types[types.indexOf(header.split(' ')[0])];
+                if (lib_type !== '') {
                     var checked = display_fields.indexOf(header) !== -1 ? 'checked' : '';
-                    $('#switchers' + type.toLowerCase()).append(
-                        '<input id="chb' + header.replace(/ /g, '') + '" class="switcher is-checkradio is-block is-success is-small" type="checkbox" ' + checked + '" data-column="' + header + '"><label for="chb' + header.replace(/ /g, '') + '">' + header.replace(type + ' ', '') + '</label>'
+                    var lib_type_index = types.indexOf(lib_type);
+                    var measure = header.replace(/ /g, '');
+                    $('div[data-content="' + lib_type_index + '"]').append(
+                        '<input id="chb-' + measure + '" class="switcher is-checkradio is-block is-success is-small" type="checkbox" ' + checked + ' data-column="' + header + '"><label for="chb-' + measure + '">' + header.replace(lib_type + ' ', '') + '</label> '
                     );
                 }
             });
+
             var data = [];
             $.each(results.data, function (i, row) {
                 var data_row = [];
@@ -34,7 +53,7 @@ $(function () {
                 data.push(data_row);
             });
 
-            var library_table = $('#tbllibrarydata').DataTable({
+            var library_table = $('#tbl-librarydata').DataTable({
                 scrollX: true,
                 autoWidth: false,
                 data: data,
@@ -46,16 +65,6 @@ $(function () {
                 var name = $(this).attr('data-column') + ':name';
                 var column = library_table.column(name);
                 column.visible(!column.visible());
-            });
-
-            $('#tabs li').on('click', function () {
-                var tab = $(this).data('tab');
-
-                $('#tabs li').removeClass('is-active');
-                $(this).addClass('is-active');
-
-                $('#tab-content p').removeClass('is-active');
-                $('p[data-content="' + tab + '"]').addClass('is-active');
             });
         }
     });

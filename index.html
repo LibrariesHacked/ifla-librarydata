@@ -17,7 +17,8 @@
     <section class="section">
         <div class="container">
             <h1 class="title">World Library Data</h1>
-            <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and licensed</a> by IFLA.</p>
+            <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and
+                    licensed</a> by IFLA.</p>
             <a class="button is-large is-success" href="data/ifla_data.csv">
                 <span class="icon is-medium">
                     <i class="fas fa-file-csv"></i>
@@ -27,18 +28,12 @@
             <hr />
         </div>
         <div class="container">
-            <div class="tabs is-small">
-                <ul id="tabs-libtypes"></ul>
+            <div class="tabs is-fullwidth">
+                <ul id="ul-libtypes"></ul>
             </div>
-            <div id="tab-content">
-                <div id="switchersnational" class="is-active" data-content="1"></div>
-                <div id="switcherspublic" class="is-active" data-content="1"></div>
-                <div id="switchersacademic" class="is-active" data-content="1"></div>
-                <div id="switchersschool" class="is-active" data-content="1"></div>
-                <div id="switchersvolunteer" class="is-active" data-content="1"></div>
-                <div id="switchersother" class="is-active" data-content="1"></div>
-            </div>
-            <table id="tbllibrarydata" class="table is-bordered is-striped"></table>
+            <div id="div-tabcontents"></div>
+            <hr />
+            <table id="tbl-librarydata" class="table is-bordered is-striped"></table>
         </div>
     </section>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>

@@ -5,3 +5,11 @@ table.dataTable td {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.is-active {
+  display: block;
+}
