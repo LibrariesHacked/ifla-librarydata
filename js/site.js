@@ -39,7 +39,7 @@ $(function () {
                     var lib_type_index = types.indexOf(lib_type);
                     var measure = header.replace(/ /g, '');
                     $('div[data-content="' + lib_type_index + '"]').append(
-                        '<input id="chb-' + measure + '" class="switcher is-checkradio is-block is-success is-small" type="checkbox" ' + checked + ' data-column="' + header + '"><label for="chb-' + measure + '">' + header.replace(lib_type + ' ', '') + '</label> '
+                        '<input id="chb-' + measure + '" class="switcher is-checkradio is-block is-success is-small" type="checkbox" ' + checked + ' data-column="' + header + '"><label for="chb-' + measure + '">' + header.replace(lib_type + ' ', '') + '</label>'
                     );
                 }
             });
