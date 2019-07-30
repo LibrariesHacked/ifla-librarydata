@@ -13,3 +13,19 @@ table.dataTable td {
 .tab-content.is-active {
   display: block;
 }
+
+label {
+  white-space: nowrap;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.tab-content {
+  line-height: 2
+}
+
+.div-input {
+  display: inline-block
+}

@@ -6,34 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IFLA World Library Data</title>
     <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="node_modules/datatables-bulma/css/dataTables.bulma.min.css">
     <link rel="stylesheet" href="node_modules/bulma-extensions/dist/css/bulma-extensions.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
+    
 </head>
 
 <body>
     <section class="section">
         <div class="container">
             <h1 class="title">World Library Data</h1>
-            <p class="subtitle">All data <a href="https://librarymap.ifla.org/copyright" target="_blank">compiled and
-                    licensed</a> by IFLA.</p>
-            <a class="button is-large is-success" href="data/ifla_data.csv">
-                <span class="icon is-medium">
-                    <i class="fas fa-file-csv"></i>
-                </span>
+            <p class="subtitle">All data compiled and licensed by IFLA. Taken from the <a href="https://librarymap.ifla.org/" target="_blank">Library map of the world</a></p>
+            <a class="button is-large" href="data/ifla_data.csv">
                 <span><strong>Download</strong> data</span>
             </a>
-            <hr />
         </div>
+        <hr />
         <div class="container">
-            <div class="tabs is-fullwidth is-toggle">
+            <h2 class="subtitle is-6">1. Choose a library type</h2>
+            <div class="tabs is-fullwidth is-boxed">
                 <ul id="ul-libtypes"></ul>
             </div>
+        </div>
+        <br />
+        <div class="container">
+            <h2 class="subtitle is-6">2. Choose measures</h2>
             <div id="div-tabcontents"></div>
             <hr />
-            <table id="tbl-librarydata" class="table is-bordered is-striped"></table>
+            <table id="tbl-librarydata" class="table is-bordered"></table>
         </div>
     </section>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
